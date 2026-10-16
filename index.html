@@ -283,6 +283,15 @@ a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
 .zuel-fit p{font-size:15px;color:#44555f;max-width:910px}
 @media(max-width:660px){.zuel-fit{padding:22px}.zuel-fit h3{font-size:21px}}
 @media print{.zuel-fit{padding:16px;break-inside:avoid}.zuel-fit h3{font-size:14px}.zuel-fit p{font-size:9px}}
+
+/* Justified narrative paragraphs */
+p, .methods-list li, .simple-list li {
+  text-align: justify;
+  text-align-last: start;
+  text-justify: inter-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
 </style>
 </head>
 <body>
